@@ -1,0 +1,26 @@
+print "This is a test.";
+
+// Testing if you can print a boolean value stored in a variable
+var boolean_value = true;
+print boolean_value;
+
+// Testing more of prints capabilities
+print 1 + 1;
+print nil;
+print 123.456;
+print 1 == 2;
+print 1 <= 2;
+
+// Can it print multiple values?
+var value_1 = 20;
+// print value_1 boolean_value; no it doesn't work
+
+// Infinite recursion causes stack overflow?
+
+fun recurse() {
+   print "recursion";
+   return recurse();
+}
+
+// recurse(); Yes it does, but the limit seems small
+
